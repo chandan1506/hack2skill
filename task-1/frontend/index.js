@@ -2,7 +2,7 @@
 
 async function fetchData(){
     try {
-        const res=await fetch("http://localhost:4000/fetch-data")
+        const res=await fetch("https://task-1-0n2q.onrender.com/fetch-data")
         const bag =await res.json()
         render(bag)
     } catch (error) {

@@ -83,14 +83,21 @@ The server will start running on the specified port.
 
 ## Project Highlights
 
-<img width="90%" src="https://www.linkpicture.com/q/Screenshot-128_4.png" />
+<img width="90%" src="https://www.linkpicture.com/q/Screenshot-132.png" />
 
-<img width="90%" src="https://www.linkpicture.com/q/Screenshot-129_5.png" />
+<img width="90%" src="https://www.linkpicture.com/q/Screenshot-133_2.png" />
 
 
 ## Demo
 
+### Backend-Link
 
+https://task-1-0n2q.onrender.com/
+
+
+### Frontend-Link
+
+https://incandescent-smakager-be5121.netlify.app/
 
 
   <h1 align="center">task-2<h1>
@@ -130,7 +137,7 @@ npm install
 
 ## Start the server:
 
-     npm run server
+     npm run start
 The server will start running on the specified port.
 
 ## API Endpoint
@@ -148,7 +155,7 @@ The server will start running on the specified port.
   2. to get all paginated data regarding cricket
 
     * method : GET
-    * Endpoint : /videos?page=pageno.&limit=limitno.
+    * Endpoint : /videos?page=<pageno.>&limit=<limitno.>
 
    
     * Response:
@@ -158,7 +165,7 @@ The server will start running on the specified port.
    3. to get all data regarding cricket by search with title and description
 
     * method : GET
-    * Endpoint : /search?q=title or description
+    * Endpoint : /search?q=<title or description>
 
    
     * Response:
@@ -191,7 +198,9 @@ The server will start running on the specified port.
 
 ## Demo
 
+### Backend-Link:-
 
+https://ill-gray-bream-tutu.cyclic.app/
 
 
  ## Author

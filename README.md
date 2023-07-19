@@ -85,7 +85,9 @@ The server will start running on the specified port.
 
 <img width="90%" src="https://www.linkpicture.com/q/Screenshot-132.png" />
 
-<img width="90%" src="https://www.linkpicture.com/q/Screenshot-133_2.png" />
+<img width="90%" src="https://www.linkpicture.com/q/Screenshot-137_2.png" />
+
+<img width="90%" src="https://www.linkpicture.com/q/Screenshot-138_1.png" />
 
 
 ## Demo
@@ -137,8 +139,15 @@ npm install
 
 ## Start the server:
 
+### run server locally
+
      npm run start
-The server will start running on the specified port.
+
+     
+### run server with dockerfile
+
+     docker run -p 3000:3000 h2skillimage
+
 
 ## API Endpoint
 
@@ -202,7 +211,9 @@ The server will start running on the specified port.
 
 https://ill-gray-bream-tutu.cyclic.app/
 
+### Tak-2-Backend-Routes-Explaination-video-link:-
 
+https://drive.google.com/file/d/192zJSFqClDYAyszotsR7MtJYASx96b5F/view?usp=sharing
  ## Author
 
 - [@chandan1506](https://github.com/chandan1506)

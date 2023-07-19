@@ -1,6 +1,8 @@
 // Fetch the data from the server and populate the table
 
 async function fetchData(){
+    document.querySelector("h1").style.display = "none"
+    btn.style.display = "none"
     try {
         const res=await fetch("https://task-1-0n2q.onrender.com/fetch-data")
         const bag =await res.json()
@@ -11,7 +13,11 @@ async function fetchData(){
 }
 
 function render(result){
+    
+    preloader.style.display = "none"
+
     document.querySelector("table").style.display="block"
+    
     const tbody = document.querySelector('#data-table tbody');
     tbody.innerHTML=""
 
@@ -32,6 +38,8 @@ function render(result){
 }
 
 let btn = document.getElementById("btn")
+let preloader = document.getElementById("preloader")
 btn.addEventListener("click",()=>{
+    preloader.style.display = "flex"
     fetchData()
 })
